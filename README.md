@@ -16,34 +16,30 @@ The Personal Info Card is a React Project that allows users to store and manage 
   - Full address (line1, line2, town, county, eircode)
   - Multiple links (name + URL pairs)
 
-
 - **Copy Functionality**:
 
   - One-click copy buttons for each information field
   - Formatted address copying
   - Direct URL copying for links
 
-
 - **Edit/Save Toggle**:
 
   - Floating Action Button (FAB) for switching between view and edit modes
   - Form validation during editing
-
 
 - **Responsive Design**:
 
   - Adapts to different screen sizes
   - Mobile-friendly layout
 
-
 ### Future Iteration Plans
 
 - **OAuth Integration**: Secure authentication for user accounts
 - **Custom Fields**: Allow users to add additional information fields
 - **Format Customization**:
+
   - Custom formatting for addresses
   - Phone number formatting options
-
 
 - **Enhanced Link Management**: Improved link organization and display
 
@@ -76,6 +72,22 @@ npm install
 
 ```bash
 npm run dev
+```
+
+### Testing
+
+```
+# Run tests once
+npm test
+
+# Watch mode (recommended during development)
+npm run test:watch
+
+# UI mode (experimental)
+npm run test:ui
+
+# Generate coverage report
+npm run test:coverage
 ```
 
 ## Styling
