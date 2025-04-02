@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`address formatting > multi-line format 1`] = `
+"123 Main St
+Apt 4B
+Dublin
+Co. Dublin
+d01 abcd"
+`;
